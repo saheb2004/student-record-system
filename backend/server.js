@@ -9,7 +9,7 @@ require("dotenv").config();
 
 /* Configs */
 app.use(cors());
-app.use(bodyParser.json());
+app.use(express.json());
 
 /* ROUTES */
 const studentRouter = require ("./routes/students");
